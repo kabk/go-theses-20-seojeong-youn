@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta name="author" content="Aurelio De Rosa">
-      <title>Device Orientation API Demo by Aurelio De Rosa</title>
+      <title>Mobility</title>
       <style>
          *
          {
@@ -46,7 +46,7 @@
             width: 150px;
             height: 150px;
             position: absolute;
-            font-size: 80px;
+            font-size: 40px;
             text-align: center;
             line-height: 150px;
             background-color: #999999;
@@ -104,19 +104,14 @@
       </style>
    </head>
    <body>
-      <h1>Device Orientation API</h1>
-      <span id="do-unsupported" class="hidden">deviceorientation event not supported</span>
-      <span id="dm-unsupported" class="hidden">devicemotion event not supported</span>
-      <span id="cnc-unsupported" class="hidden">compassneedscalibration event not supported</span>
-
       <div id="do-results">
          <div id="cube" class="cube">
-            <div class="face one">1</div>
-            <div class="face two">2</div>
-            <div class="face three">3</div>
-            <div class="face four">4</div>
-            <div class="face five">5</div>
-            <div class="face six">6</div>
+            <div class="face one">A. Jacob van der Doesstraat</div>
+            <div class="face two">B. Grauwpoort 7</div>
+            <div class="face three">C. Jacob van der Doesstraat 101</div>
+            <div class="face four">D. Dok Noord 6a</div>
+            <div class="face five">E. Van Diemenstraat 412</div>
+            <div class="face six">F. Papestraat 11</div>
          </div>
          <div id="do-info" class="hidden">
             <p>
@@ -154,11 +149,6 @@
             </p>
          </div>
       </div>
-
-      <small class="author">
-         Demo created by <a href="http://www.audero.it">Aurelio De Rosa</a>
-         (<a href="https://twitter.com/AurelioDeRosa">@AurelioDeRosa</a>)
-      </small>
 
       <script>
          if (!window.DeviceOrientationEvent) {
