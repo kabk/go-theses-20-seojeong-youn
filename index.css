@@ -75,12 +75,6 @@ em, i {
   /* background-color: yellow; */
 }
 
-.chapter {
-  text-align: center;
-
-
-}
-
 .bodytext {
   margin: 0;
   padding: 0;
@@ -162,6 +156,22 @@ a:hover,
 .navBtn:active {
   text-decoration: none;
   color: #000;
+}
+
+.images {
+  margin: 10vw auto 0 auto;
+  padding: 0 0 0 0;
+  width: 88vw;
+  /* background-color: yellow; */
+}
+
+.images img {
+  width: 100%;
+}
+
+.caption {
+  font-size: 3vw;
+  line-height: 3.2vw;
 }
 
 
