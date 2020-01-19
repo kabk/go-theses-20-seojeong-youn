@@ -22,6 +22,20 @@ body {
   /* padding: 0 0.5em; */
 }
 
+span.alphabet {
+  background: #cfcfcf;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em;
+}
+
+
 em, i {
   font-weight: normal;
   font-style: italic;
@@ -86,6 +100,13 @@ em, i {
 
 .title {
   text-align: center;
+  /* background-color: yellow; */
+}
+
+.infos {
+text-align: center;
+  top: 80%;
+  /* background-color: yellow; */
 }
 
 .footnotes {

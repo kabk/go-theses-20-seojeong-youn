@@ -11,164 +11,201 @@
 </head>
 
 <style>
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
-@font-face {
-  font-family: 'Helvetica Textbook LT Roman';
-  src: url('fonts/Helvetica Textbook LT Roman.ttf');
-}
+  @font-face {
+    font-family: 'Helvetica Textbook LT Roman';
+    src: url('fonts/Helvetica Textbook LT Roman.ttf');
+  }
 
-body, html {
-   font-family: 'Helvetica Textbook LT Roman';
-  /* max-width: 500px; */
-  /* margin: 2em auto; */
-  /* margin-top: 150px; */
-  /* padding: 0 0.5em; */
-  /* font-size: 15px; */
-}
+  body,
+  html {
+    font-family: 'Helvetica Textbook LT Roman';
+    /* max-width: 500px; */
+    /* margin: 2em auto; */
+    /* margin-top: 150px; */
+    /* padding: 0 0.5em; */
+    /* font-size: 15px; */
+  }
 
-.hidden {
-  display: none;
-  visibility: hidden;
-}
+  .hidden {
+    display: none;
+    visibility: hidden;
+  }
 
-#do-info {
-  display: none;
-  visibility: hidden;
-}
+  #do-info {
+    display: none;
+    visibility: hidden;
+  }
 
-#dm-info {
-  display: none;
-  visibility: hidden;
-}
+  #dm-info {
+    display: none;
+    visibility: hidden;
+  }
 
-a {
-  text-decoration: none;
-  color: #000;
-}
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 
-a:visited {
-  text-decoration: none;
-  color: #000;
-}
+  a:visited {
+    text-decoration: none;
+    color: #000;
+  }
 
-a:hover {
-  text-decoration: none;
-  color: #000;
-}
+  a:hover {
+    text-decoration: none;
+    color: #000;
+  }
 
-a:focus {
-  text-decoration: none;
-  color: #000;
-}
+  a:focus {
+    text-decoration: none;
+    color: #000;
+  }
 
-a:hover,
-.navBtn:active {
-  text-decoration: none;
-  color: #000;
-}
+  a:hover,
+  .navBtn:active {
+    text-decoration: none;
+    color: #000;
+  }
 
 
-.cube
-     {
-        /* width: 500px; */
-        /* height: 150px; */
-        position: relative;
-        margin-top: 160px;
-}
+  .cube {
+    /* width: 500px; */
+    /* height: 150px; */
+    position: relative;
+margin-top: 30%;
+margin-bottom: 55%;
+   /* background-color: yellow; */
+  }
 
   .face {
-  /* width: 300px; */
-  /* height: 20px; */
-  /* position: relative; */
-  /* font-size: 20px; */
-  /* text-align: center; */
-  /* line-height: 20px; */
-  /* margin-top: 200px; */
-  /* background-color: #999999;
+    width: 300px;
+    height: 20px;
+    position: relative;
+    font-size: 4vw;
+    right: 10%;
+    /* text-align: center; */
+    /* line-height: 20px; */
+    /* margin-top: 50px; */
+     /* background-color: #999999;
         box-shadow: inset 0 0 20px #333333;
-        opacity: 0.6; */
-}
+        opacity: 0.6; */ */
+  }
 
-.cube .one {
+  .cube .one {
+    transform: rotate(10deg);
+    margin-left: 100px;
+  }
 
-  transform: rotate(10deg);
-  margin-left: 100px;
-}
+  .cube .two {
+    transform: rotate(-20deg);
+    margin-top: 30px;
+    margin-left: 130px;
+  }
 
-.cube .two {
-  transform: rotate(-20deg);
-  margin-top: 30px;
-  margin-left: 130px;
-}
+  .cube .three {
+    transform: rotate(150deg);
+    margin-right: 150px;
+    margin-top: 80px;
+    margin-bottom: -30px;
 
-.cube .three {
-  transform: rotate(150deg);
-  margin-right: 150px;
-  margin-top: 80px;
-  margin-bottom: -30px;
+  }
 
-}
+  .cube .four {
+    transform: rotate(-50deg);
+    margin-left: 150px;
+    margin-bottom: 0px;
+  }
 
-.cube .four {
-  transform: rotate(-50deg);
-  margin-left: 150px;
-  margin-bottom: 0px;
-}
+  .cube .five {
+    transform: rotate(155deg);
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-bottom: -30px;
+  }
 
-.cube .five {
-  transform: rotate(155deg);
-  margin-top: 20px;
-  margin-right: 150px;
-  margin-bottom: -30px;
-}
+  .cube .six {
+    transform: rotate(30deg);
+    margin-top: 130px;
+    margin-left: 80px;
+  }
 
-.cube .six {
-  transform: rotate(30deg);
-  margin-top: 130px;
-  margin-left: 80px;
-}
+  .cube .seven {
+    transform: rotate(-190deg);
+    margin-right: 110px;
+    margin-bottom: -150px;
 
-.cube .seven {
-  transform: rotate(-190deg);
-  margin-right: 110px;
-  margin-bottom: -150px;
+  }
 
-}
+  .cube .eight {
+    transform: rotate(-100deg);
+    margin-left: 200px;
+  }
 
-.cube .eight {
-  transform: rotate(-100deg);
-  margin-left: 200px;
-}
-
-.value {
-  font-weight: bold;
-}
+  .value {
+    font-weight: bold;
+  }
 </style>
 
 <body>
 
   <div class="title">
-    Towards Mobility: Becoming Liquid Autonomy
-<br />
-      Bachelor Thesis by Seojeong Youn
-
+    Towards Mobility: <br />Becoming Liquid Autonomy
   </div>
 
   <div id="do-results">
     <div id="cube" class="cube">
-      <div class="face one"><a href="E.html">E. Van Diemenstraat 412</a></div>
-      <div class="face two"><a href="G.html">G. Fred. Roeskestraat 96</a></div>
-      <div class="face three"><a href="H.html">H. Prinsessegracht 4</a></div>
-      <div class="face four"><a href="C.html">C. Jacob van der Doesstraat 101</a></div>
-      <div class="face five"><a href="A.html">A. Jacob van der Doesstraat</a></div>
-      <div class="face six"><a href="F.html">F. Papestraat 11</a></div>
-      <div class="face seven"><a href="D.html">D. Dok Noord 6a</a></div>
-      <div class="face eight"><a href="B.html">B. Grauwpoort 7</a></div>
+      <div class="face one">
+        <a href="E.html">
+          <span class="alphabet">E</span>Van Diemenstraat 412
+        </a>
+      </div>
+      <div class="face two">
+        <a href="G.html">
+        <span class="alphabet">G</span>Fred. Roeskestraat 96
+        </a>
+      </div>
+      <div class="face three">
+        <a href="H.html">
+          <span class="alphabet">H</span>Prinsessegracht 4
+        </a>
+      </div>
+      <div class="face four">
+        <a href="C.html">
+          <span class="alphabet">C</span>Jacob van der Doesstraat 101
+        </a>
+      </div>
+      <div class="face five">
+        <a href="A.html">
+          <span class="alphabet">A</span>Jacob van der Doesstraat
+        </a>
+      </div>
+      <div class="face six">
+        <a href="F.html">
+          <span class="alphabet">F</span> Papestraat 11
+        </a>
+      </div>
+      <div class="face seven">
+        <a href="D.html">
+          <span class="alphabet">D</span> Dok Noord 6a
+        </a>
+      </div>
+      <div class="face eight">
+        <a href="B.html">
+          <span class="alphabet">B</span> Grauwpoort 7
+        </a>
+      </div>
+    </div>
+
+    <div class="infos">
+      Seojeong Youn
+      <br /> Graphic Design BA Thesis
+      <br />The Royal Academy of Art, The Hague
     </div>
 
     <div id="do-info" class="hidden">
@@ -259,11 +296,10 @@ a:hover,
         alert('Compass needs calibrating! Wave your device in a figure-eight motion');
       });
     }
-
   </script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="index.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
