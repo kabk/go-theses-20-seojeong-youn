@@ -27,6 +27,25 @@ em, i {
   font-style: italic;
 }
 
+.arrow {
+    position: fixed;
+    /* margin: 4vw 0 0 0; */
+    width: 200px;
+    height: 100px;
+    border-radius: 100px / 50px;
+    /* padding: 1vw 2vw; */
+    left: 40%;
+    top: 80%;
+    background: black;
+    width: 20vw;
+    z-index: 1;
+}
+
+.arrow img {
+  width: 100px;
+  height: 100px;
+}
+
 .description p {
   text-indent: 0;
   display: block;
