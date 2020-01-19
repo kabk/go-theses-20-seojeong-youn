@@ -42,8 +42,9 @@ em, i {
 
 #contentContainer {
   margin: 10vw auto 0 auto;
-  padding: 0 0 40vw 0;
+  padding: 0 0 0 0;
   width: 88vw;
+  /* background-color: yellow; */
 }
 
 .bodytext {
