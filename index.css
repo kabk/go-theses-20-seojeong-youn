@@ -6,64 +6,76 @@
 }
 
 @font-face {
-  font-family: 'Helvetica Textbook LT Roman';
+  font-family: 'Helvetica Textbook LT Roman', sans-serif;
   src: url('fonts/Helvetica Textbook LT Roman.ttf');
 }
 
-body, html {
-   font-family: 'Helvetica Textbook LT Roman';
+body {
+   font-family: 'Helvetica Textbook LT Roman', sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 5.25vw;
+  line-height: 5.8vw;
    /* max-width: 0px; */
    /* margin: 60px; */
    /* margin-top: auto; */
    /* margin-top: 150px; */
    /* padding: 0 0.5em; */
-   /* font-size: 20px; */
 }
 
-h1 {
+em, i {
+	font-weight: normal;
+	font-style: italic;
+}
+
+.description p {
+    text-indent: 0;
+    display: block;
+}
+
+/* .bodytext p+p {
+      text-indent: 12vw;
+} */
+
+.bodytext p span.indent {
+  margin: 5.5vw 0 0 12vw;
+}
+
+#contentContainer {
+    margin: 10vw auto 0 auto;
+    padding: 0 0 40vw 0;
+    width: 88vw;
+  }
+
+.bodytext {
+  margin: 0;
+padding: 0;
+font: inherit;
+vertical-align: baseline;
+}
+}
+
+.chapter {
+  margin: 0;
+padding: 0;
+font: inherit;
+vertical-align: baseline;
   text-align: center;
-  margin: 50px;
-  font-size: 50px;
-}
-
-p {
-  margin: 40px;
 }
 
 .title {
   text-align: center;
 }
 
-.A {
-  /* margin-top: 15px; */
-  font-size: 30px;
-}
-
-.bar {
-  width: 100%;
-  height: 100px;
-  background-color: white;
-  position: fixed;
-  border-bottom: solid black;
-}
-
-i {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 15px;
-  fo
-}
-
-.left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  position: fixed;
-
-}
-
 .footnotes {
   font-family: serif;
   font-size: 15px;
-  margin: 40px;
+  /* margin: 40px; */
+}
+
+@media only screen and (max-width: 1200px)
+#contentContainer {
+    margin: 34vw auto 0 auto;
+    padding: 0 0 40vw 0;
+    width: 88vw;
 }
