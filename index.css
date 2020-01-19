@@ -5,12 +5,12 @@
 }
 
 @font-face {
-  font-family: 'Helvetica Textbook LT Roman', sans-serif;
+  font-family: 'Helvetica Textbook LT Roman';
   src: url('fonts/Helvetica Textbook LT Roman.ttf');
 }
 
 body {
-  font-family: 'Helvetica Textbook LT Roman', sans-serif;
+  font-family: 'Helvetica Textbook LT Roman';
   font-weight: normal;
   font-style: normal;
   font-size: 5.25vw;
@@ -37,13 +37,8 @@ em, i {
     left: 40%;
     top: 80%;
     background: black;
-    width: 20vw;
+    /* width: 30vw; */
     z-index: 1;
-}
-
-.arrow img {
-  width: 100px;
-  height: 100px;
 }
 
 .description p {
@@ -64,6 +59,12 @@ em, i {
   padding: 0 0 0 0;
   width: 88vw;
   /* background-color: yellow; */
+}
+
+.chapter {
+  text-align: center;
+
+
 }
 
 .bodytext {
