@@ -70,11 +70,47 @@ em, i {
 .footnotes {
   font-family: serif;
   font-size: 2vw;
+  line-height: 2.6vw;
   /* margin: 40px; */
   margin: 10vw auto 0 auto;
   padding: 0 0 40vw 0;
   width: 88vw;
 }
+
+.footnote-ref {
+  font-size: 1.5vw;
+}
+
+.footnote-back {
+  font-size: 1.5vw;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+a:focus {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover,
+.navBtn:active {
+  text-decoration: none;
+  color: #000;
+}
+
 
 @media only screen and (max-width: 1200px) #contentContainer {
   margin: 34vw auto 0 auto;
